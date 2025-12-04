@@ -49,6 +49,38 @@
         <a href="mailto:your-email@example.com">Send me an email</a><br><br>
         <a href="about.html">ABOUT ME</a>
     </section>
+<section>
+    <p id="welcome">Hello, this is my website!</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeColor()">Change Color</button>
+</section>
+<section>
+    <h2>Say Hello</h2>
+
+    <label for="nameInput">Enter your name:</label>
+    <input type="text" id="nameInput" placeholder="Type your name here">
+
+    <button onclick="greetUser()">Greet Me</button>
+
+    <p id="greetingMessage"></p>
+</section>
+<section>
+    <h2>Color Changer App</h2>
+
+    <div id="colorBox">
+        <p id="colorLabel">Current color: default</p>
+    </div>
+
+    <button onclick="setColor('red')">Red</button>
+    <button onclick="setColor('green')">Green</button>
+    <button onclick="setColor('blue')">Blue</button>
+    <button onclick="setRandomColor()">Random Color</button>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
 
 </body>
 </html>

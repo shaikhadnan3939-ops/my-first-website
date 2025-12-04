@@ -1,0 +1,90 @@
+/* ===== BASIC PAGE STYLING ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* ===== CARD SECTIONS ===== */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== FLEXBOX LAYOUT ===== */
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.flex-column {
+    flex: 1;
+}
+
+/* ===== IMAGES ===== */
+img {
+    width: 180px;
+    border-radius: 15px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== COLOR CHANGER APP BOX ===== */
+#colorBox {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+#colorLabel {
+    font-weight: bold;
+}
+
+/* ===== BUTTONS ===== */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0077cc;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
